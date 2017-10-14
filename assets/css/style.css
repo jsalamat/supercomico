@@ -1,7 +1,8 @@
-h1 {
-	font-size: 30px
-}
-
-p {
-	font-size: 12px;
+html,
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
