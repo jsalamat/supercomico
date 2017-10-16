@@ -30,3 +30,11 @@ canvas {
 	top: 12px;
 	position: absolute;
 }
+
+.menu {
+	position: absolute;
+	font-size: 1.6em;
+	right: 36px;
+	top: 16px;
+	width: 39px;
+}
