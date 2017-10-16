@@ -38,3 +38,14 @@ canvas {
 	top: 16px;
 	width: 39px;
 }
+
+.title {
+	text-align: center;
+	height: 60px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 70px;
+	position: absolute;
+	top: 50%;
+	width: 800px;
+}
