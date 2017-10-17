@@ -90,3 +90,24 @@ container {
     padding: 80px 0;
     text-align: center;
 }
+
+container h2 {
+	color: #ddd;
+	font-size: 1em;
+}
+
+a {
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #19aae0;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+footer {
+	height: 90px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
