@@ -22,7 +22,7 @@ canvas {
 }
 
 .logo {
-	background: url(../assets/images/eg-logo.png) center no-repeat;
+	background: url(../images/eg-logo.png) center no-repeat;
 	background-size: contain;
 	height: 45px;
 	width: 35px;
@@ -48,4 +48,14 @@ canvas {
 	position: absolute;
 	top: 50%;
 	width: 800px;
+}
+
+h2 {
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.title h2{
+	text-shadow: 0px 0px 12px #fff;
 }
