@@ -73,3 +73,12 @@ h2 {
 	width: 100%;
 	background: #333 url(../images/ps_bg.png);
 }
+
+.icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 120px;
+	width: 117px;
+	background-image: url(../images/ps.png);
+}
