@@ -59,3 +59,17 @@ h2 {
 .title h2{
 	text-shadow: 0px 0px 12px #fff;
 }
+
+.button {
+	left: 50%;
+	margin-left: -58px;
+	margin-top: -60px;
+	position: absolute;
+	top: 50%;
+	width: 117px;
+}
+
+#content {
+	width: 100%;
+	background: #333 url(../images/ps_bg.png);
+}
