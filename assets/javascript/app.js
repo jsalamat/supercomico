@@ -16,3 +16,11 @@ aquarelle.addEventListener('created', function() {
 	image.parentNode.insertBefore(canvas, image.nextSibling);
 	image.parentNode.removeChild(image);
 });
+
+aquarelle.addEventListener('changed', function(event) {
+	topNav.style.opacity = this.
+	transitionInRange(0, 1, 5000, 8000);
+	var canvas = this.getCanvas();
+	canvas.style.webkitTransform = canvas.style;
+	transform = 'translate(-50%, -50%) scale('+ this.transitionInRange(.75, 1) + ')'
+})
