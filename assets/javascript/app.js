@@ -5,8 +5,21 @@ var icon = document.querySelector('.icon');
 var image = document.getElementById('watercolor');
 
 var aquarelle = new Aquarelle(image, 'assets/images/mask.png', {
+
+	//default effect -------------------------------------------
+	// autoplay: true,
+	// loop: false
+	// End of default effect ------------------------------------
+
+	//Extra Effect Ripple effect to Screen-----------------------------
+	fromAmplitude: 5,
+	toAmplitude: 0,
+	fromFrequency: 8,
+	toFrequency: 3,
 	autoplay: true,
-	loop: false
+	loop: false,
+	toOffset: 50
+	// End of Extra Effect-----------------------------
 });
 
 aquarelle.addEventListener('created', function() {
